@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akatsuki signup</title>
+</head>
+<body>
+    
+     <h1>RECRUITMENT FOR NEW AKATSUKI MEMBERS.</h1>
+   
+      <p> <a href="https://naruto.fandom.com/wiki/Akatsuki">Akatsuki</a>, initially founded by <a href="https://naruto.fandom.com/wiki/Yahiko"> Yahiko</a>,<a href="https://naruto.fandom.com/wiki/Nagato">Nagato</a> and <a href="https://naruto.fandom.com/wiki/Konan">Konan</a> in the wake of the Second Shinobi World War, began as a group dedicated to achieving peace through revolution.
+      After <a href="https://naruto.fandom.com/wiki/Yahiko">Yahikos</a> death, <a href=""> Nagato</a> transformed  <a href="">Akatsuki</a> into a more radical organization under the alias Pain, with a mission to collect the Tailed Beasts and impose peace through fear and control. 
+        The group, known for its distinctive red cloud cloaks and powerful rogue members like  <a href="https://naruto.fandom.com/wiki/Itachi_Uchiha">Itachi Uchiha</a> and  <a href="https://naruto.fandom.com/wiki/Orochimaru">Orochimaru</a>, operated with a complex hierarchy and diverse objectives. 
+        As the series progressed, Akatsuki's influence was challenged by Naruto Uzumaki and various allied forces.
+        After the death of  <a href="https://naruto.fandom.com/wiki/Hidan">Hidan</a> and  <a href="https://naruto.fandom.com/wiki/Kakuzu">Kakuzu</a>,  <a href="https://naruto.fandom.com/wiki/Nagato">Pain</a> alongside <a href="https://naruto.fandom.com/wiki/Itachi_Uchiha">Itachi Uchiha</a> and  <a href="https://naruto.fandom.com/wiki/Konan">Konan</a> have decided to recruit members inorder to continue with the tail beast collection.
+        </p>
+
+        <!--requirements-->
+        <h2>Requirements Needed To Secure Your Spot</h2>
+        <p>The following are requirements needed to join the <em>AKATSUKI</em>:</p>
+        <ul>
+            <li>You need to be an S-ranked criminal. The rogue status is required.</li>
+            <li>Must put your heart and soul to the course.</li>
+            <li>Willingness to working in pairs.</li>
+            <li>Must put on the Akatsuki cloak all the time.</li>
+        </ul>
+       <form action="welcome.html" method="post">
+        
+        <fieldset>
+           <legend>SHINOBI INFORMATION.</legend>
+
+          <!--Firstname Input-->
+           <div>
+            <label for="firstname"><strong>First Name:</strong></label>
+            <input type="text" id="firstname" name="firstname" placeholder="Your First Name."/>
+           </div>
+           
+            
+            <!--Lastname Input-->
+           <div>
+            <label for="lastname"><strong>Last Name:</strong></label>
+            <input type="text" id="lastname" name="lastname" placeholder="Your Last Name."/>
+           </div>
+
+           <!--Alias Input-->
+           <div>
+            <label for="alias"><strong>Alias:</strong></label>
+            <input type="text" id="alias" name="alias" placeholder="Enter Alias."/>
+           </div>
+
+           <!--Element Input-->
+           <div><strong>Element:</strong>
+            <input type="radio" id="lightning" name="element" value="lightning"/>
+            <label for="lightning">Lightnening</label>
+            <input type="radio" id="earth" name="element" value="earth"/>
+            <label for="earth">Earth</label>
+            <input type="radio" id="fire" name="element" value="fire"/>
+            <label for="fire">Fire</label>
+            <input type="radio" id="water" name="element" value="water"/>
+            <label for="water">Water</label>
+            <input type="radio" id="wind" name="element" value="wind"/>
+            <label for="wind">Wind</label>
+           </div>
+           <div>
+
+            <!--Village Input-->
+            <label for="village">Which Village Are You From?</label>
+        <select id="village" name="village">
+            <option value="" disabled selected>Select Your Village</option>
+            <option value="leaves">Village Hidden in the Leaves</option>
+            <option value="sand">Village Hidden in the Sand</option>
+            <option value="clouds">Village Hidden in the Clouds</option>
+            <option value="stones">Village Hidden in the Stones</option>
+            <option value="mist">Village Hidden in the Mist</option>
+        </select>
+           </div>
+            
+        </fieldset>
+        <input type="submit"/>
+       </form>
+       <h3>AKATSUKI ASSEMBLE!!!</h3>
+       <h4>A brief introduction by the leader (Nagato) pointing out the groups scope.</h4>
+       <video width="1000" height="500" controls poster>
+           <source src="public/videos/akatsuki-intro.mp4" type="video/mp4">
+       Your browser does not support the video tag. 
+       </video>
+    </body>
+   
+    
+    <style>
+   h1, p, fieldset, ul, h2, h3, h4{
+        font-family: fantasy;
+        
+    }
+    fieldset{
+        border-color: black;
+        font-size: medium;
+        
+        
+    }
+   body{
+    background-color: crimson;
+    background-image: url(public/images/wholesquad.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   h1{
+    text-align: center;
+   }
+   p{
+    text-decoration: solid;
+   }
+   h3{
+    text-align: center;
+    font-size: 220%;
+    color: rgb(172, 70, 239);
+   }
+   h4{
+    font-size: 150%;
+    color: rgb(172, 70, 239);
+   }
+    </style>
+</html>
